@@ -235,12 +235,6 @@ var loadTasks = function() {
         // pass each task object into the 'createTaskEl()' function
         console.log(createTaskEl(savedTasks[i]));
         
-        // if (savedTaskEl.status === 'in progress') {
-        //     taskInProgressEl.appendChild(savedTaskEl);
-        // }
-        // else if (savedTaskEl.status === 'completed') {
-        //     tasksCompletedEl.appendChild(savedTaskEl);
-        // }
 
     }
 
